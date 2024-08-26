@@ -1,0 +1,2 @@
+document.querySelectorAll("form").forEach(function(e){e.querySelectorAll("input").forEach(function(e){var t=document.createElement("label");t.setAttribute("class","field-label"),t.setAttribute("for",e.getAttribute("id"));for(var r=e.getAttribute("name")||"",o=(r.charAt(0).toUpperCase()+r.slice(1)).split(""),l=0;l<o.length;l++)o[l]===o[l].toLowerCase()&&l+1<o.length&&o[l+1]===o[l+1].toUpperCase()&&(o[l]+=" ");var a=o.join("");t.textContent=a,e.setAttribute("placeholder",a),e.parentNode.insertBefore(t,e)})});
+//# sourceMappingURL=index.25d21136.js.map
